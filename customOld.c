@@ -138,7 +138,7 @@ void update_overlay(int set_bitrate, double throughput,
     g_object_set (G_OBJECT(overlay), "text", overlay_text, NULL);
 
     if(GST_IS_ELEMENT(chatWarning)) {
-      g_object_set (G_OBJECT(chatWarning), "text", "If this is visible, please tell me i'm an idiot.", NULL);
+      g_object_set (G_OBJECT(chatWarning), "text", "If this is visible, please tell me", NULL);
     }
   }
 }
